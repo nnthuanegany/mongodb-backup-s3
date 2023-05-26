@@ -1,2 +1,7 @@
-LICENSE
-*.md
+dump
+test
+.dockerignore
+docker-compose.yml
+Dockerfile
+dockerize.sh
+README.md
