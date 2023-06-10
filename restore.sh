@@ -37,6 +37,7 @@ restore() {
         --password="$MONGO_PASSWORD" \
         --authenticationDatabase=admin \
         --nsInclude="$MONGO_DATABASE" \
+        --db="$MONGO_DATABASE" \
         --drop /dump/$RESTORE_NAME
 }
 
